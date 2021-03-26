@@ -16,6 +16,11 @@ plt.scatter(x=year, y=pop, color='green', marker="*",
 plt.scatter(x=year1, y=pop1, color='red', marker="+",
             alpha=1, s=100, label="Indian poluation")
 
+
+plt.text(2012, 204.3, "India")
+plt.text(2012, 195.3, "Pakistan")
+
+
 plt.grid()
 plt.legend()
 
