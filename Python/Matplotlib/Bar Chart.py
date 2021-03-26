@@ -33,7 +33,7 @@ plt.xlabel("Year Wise Data")
 plt.ylabel("Population in Million")
 plt.title("Population Projection Between Top Asian Countries")
 
-plt.savefig("Scatter.png")
+# plt.savefig("Bar.png")
 
 plt.show()
 # print(plt.style.available)
