@@ -1,5 +1,7 @@
 import matplotlib.pyplot as plt
 
+plt.style.use('fivethirtyeight')
+
 year = [2010, 2012, 2014, 2016, 2018, 2020, 2021]
 pop = [179.4, 187.3, 195.3, 203.6, 204.73, 208.57, 212.48]
 
@@ -16,6 +18,7 @@ plt.plot(year1, pop1, color='b', linestyle='-',
 plt.xlabel("Year Wise Data")
 plt.ylabel("Population in Million")
 plt.title("Pakistan Population Projection")
-plt.legend()
 
+plt.legend()
+plt.tight_layout()
 plt.show()
